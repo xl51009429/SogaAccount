@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0B6BADC7DF17D80CF0C65D /* Pods_SogaAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66C8CEE0B41502099B3E728 /* Pods_SogaAccount.framework */; };
+		6EAF458A1F72118A00B1B4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF45891F72118A00B1B4E4 /* AppDelegate.swift */; };
+		6EAF45911F72118A00B1B4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF45901F72118A00B1B4E4 /* Assets.xcassets */; };
+		6EAF45941F72118A00B1B4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF45921F72118A00B1B4E4 /* LaunchScreen.storyboard */; };
+		6EAF45A01F72138A00B1B4E4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF459F1F72138A00B1B4E4 /* MainViewController.swift */; };
+		6EAF45A21F7213D600B1B4E4 /* BLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF45A11F7213D600B1B4E4 /* BLTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EAF45861F72118A00B1B4E4 /* SogaAccount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SogaAccount.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EAF45891F72118A00B1B4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EAF45901F72118A00B1B4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EAF45931F72118A00B1B4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EAF45951F72118A00B1B4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EAF459F1F72138A00B1B4E4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6EAF45A11F7213D600B1B4E4 /* BLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLTabBarController.swift; sourceTree = "<group>"; };
+		81A65987851565C9917C7B53 /* Pods-SogaAccount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SogaAccount.release.xcconfig"; path = "Pods/Target Support Files/Pods-SogaAccount/Pods-SogaAccount.release.xcconfig"; sourceTree = "<group>"; };
+		C66C8CEE0B41502099B3E728 /* Pods_SogaAccount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SogaAccount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FF0F2B6F840294192ADDDA /* Pods-SogaAccount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SogaAccount.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SogaAccount/Pods-SogaAccount.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EAF45831F72118A00B1B4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0B6BADC7DF17D80CF0C65D /* Pods_SogaAccount.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FCAD436A4F3C044D3948CEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5FF0F2B6F840294192ADDDA /* Pods-SogaAccount.debug.xcconfig */,
+				81A65987851565C9917C7B53 /* Pods-SogaAccount.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EAF457D1F72118A00B1B4E4 = {
+			isa = PBXGroup;
+			children = (
+				6EAF45881F72118A00B1B4E4 /* SogaAccount */,
+				6EAF45871F72118A00B1B4E4 /* Products */,
+				5FCAD436A4F3C044D3948CEE /* Pods */,
+				BFCB371D23087F8D8FF43C94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EAF45871F72118A00B1B4E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF45861F72118A00B1B4E4 /* SogaAccount.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EAF45881F72118A00B1B4E4 /* SogaAccount */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF45951F72118A00B1B4E4 /* Info.plist */,
+				6EAF459D1F72133E00B1B4E4 /* Resource */,
+				6EAF459C1F72131F00B1B4E4 /* AppDelegate */,
+				6EAF459B1F7212F300B1B4E4 /* Sections */,
+			);
+			path = SogaAccount;
+			sourceTree = "<group>";
+		};
+		6EAF459B1F7212F300B1B4E4 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF459E1F72137000B1B4E4 /* Main */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		6EAF459C1F72131F00B1B4E4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF45891F72118A00B1B4E4 /* AppDelegate.swift */,
+				6EAF45A11F7213D600B1B4E4 /* BLTabBarController.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6EAF459D1F72133E00B1B4E4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF45901F72118A00B1B4E4 /* Assets.xcassets */,
+				6EAF45921F72118A00B1B4E4 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6EAF459E1F72137000B1B4E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF459F1F72138A00B1B4E4 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BFCB371D23087F8D8FF43C94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C66C8CEE0B41502099B3E728 /* Pods_SogaAccount.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EAF45851F72118A00B1B4E4 /* SogaAccount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EAF45981F72118A00B1B4E4 /* Build configuration list for PBXNativeTarget "SogaAccount" */;
+			buildPhases = (
+				A6E22D87B8B0274918CAA65C /* [CP] Check Pods Manifest.lock */,
+				6EAF45821F72118A00B1B4E4 /* Sources */,
+				6EAF45831F72118A00B1B4E4 /* Frameworks */,
+				6EAF45841F72118A00B1B4E4 /* Resources */,
+				A5FE3080E82E73009B0AE01F /* [CP] Embed Pods Frameworks */,
+				97AB392BB3C6FCFBDE440133 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SogaAccount;
+			productName = SogaAccount;
+			productReference = 6EAF45861F72118A00B1B4E4 /* SogaAccount.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EAF457E1F72118A00B1B4E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = 5i5j;
+				TargetAttributes = {
+					6EAF45851F72118A00B1B4E4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6EAF45811F72118A00B1B4E4 /* Build configuration list for PBXProject "SogaAccount" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EAF457D1F72118A00B1B4E4;
+			productRefGroup = 6EAF45871F72118A00B1B4E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EAF45851F72118A00B1B4E4 /* SogaAccount */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EAF45841F72118A00B1B4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAF45941F72118A00B1B4E4 /* LaunchScreen.storyboard in Resources */,
+				6EAF45911F72118A00B1B4E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97AB392BB3C6FCFBDE440133 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SogaAccount/Pods-SogaAccount-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5FE3080E82E73009B0AE01F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SogaAccount/Pods-SogaAccount-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SogaAccount/Pods-SogaAccount-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E22D87B8B0274918CAA65C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SogaAccount-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EAF45821F72118A00B1B4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAF458A1F72118A00B1B4E4 /* AppDelegate.swift in Sources */,
+				6EAF45A21F7213D600B1B4E4 /* BLTabBarController.swift in Sources */,
+				6EAF45A01F72138A00B1B4E4 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EAF45921F72118A00B1B4E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EAF45931F72118A00B1B4E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EAF45961F72118A00B1B4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EAF45971F72118A00B1B4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EAF45991F72118A00B1B4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5FF0F2B6F840294192ADDDA /* Pods-SogaAccount.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SogaAccount/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bacic5i5j.SogaAccount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EAF459A1F72118A00B1B4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A65987851565C9917C7B53 /* Pods-SogaAccount.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SogaAccount/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bacic5i5j.SogaAccount;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EAF45811F72118A00B1B4E4 /* Build configuration list for PBXProject "SogaAccount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EAF45961F72118A00B1B4E4 /* Debug */,
+				6EAF45971F72118A00B1B4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EAF45981F72118A00B1B4E4 /* Build configuration list for PBXNativeTarget "SogaAccount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EAF45991F72118A00B1B4E4 /* Debug */,
+				6EAF459A1F72118A00B1B4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EAF457E1F72118A00B1B4E4 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_SogaAccount {
+  umbrella header "Pods-SogaAccount-umbrella.h"
+
+  export *
+  module * { export * }
+}
