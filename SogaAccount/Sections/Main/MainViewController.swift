@@ -20,7 +20,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
 		self.tableView = UITableView(frame: CGRect.zero)
 		self.tableView?.delegate = self
 		self.tableView?.dataSource = self
-		self.tableView?.register(UITableViewCell.classForCoder(), forCellReuseIdentifier:"cellId")
+		self.tableView?.rowHeight = 100
+		self.tableView?.tableFooterView = UIView.init(frame: CGRect.zero)
+		self.tableView?.register(AccountCell.classForCoder(), forCellReuseIdentifier:"accountCellId")
 		self.view.addSubview(self.tableView!)
 		
 		self.tableView?.snp.makeConstraints({ (make) in
@@ -33,8 +35,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
 	}
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath)
-		cell.textLabel?.text = "big";
+		let cell = tableView.dequeueReusableCell(withIdentifier: "accountCellId", for: indexPath)
 		return cell;
 	}
 
