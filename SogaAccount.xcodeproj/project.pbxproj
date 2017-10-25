@@ -7,26 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0176CC1F9DC10B00807578 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0176CB1F9DC10B00807578 /* MainView.swift */; };
+		6E0176CE1F9DC1C100807578 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0176CD1F9DC1C100807578 /* MainViewController.swift */; };
+		6E0176D01F9DC25900807578 /* AddRecordAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0176CF1F9DC25900807578 /* AddRecordAlertView.swift */; };
+		6E0176D11F9DC58300807578 /* AlertViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0176C51F9DC02300807578 /* AlertViewManager.swift */; };
 		6E0B6BADC7DF17D80CF0C65D /* Pods_SogaAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66C8CEE0B41502099B3E728 /* Pods_SogaAccount.framework */; };
 		6E32E50A1F8CA964003114B1 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E32E5091F8CA964003114B1 /* MineViewController.swift */; };
-		6E32E50C1F8CAA8A003114B1 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E32E50B1F8CAA8A003114B1 /* AccountCell.swift */; };
+		6E45E14A1F9E1377001E4303 /* BLAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0176C71F9DC02300807578 /* BLAlertViewController.swift */; };
 		6EAF458A1F72118A00B1B4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF45891F72118A00B1B4E4 /* AppDelegate.swift */; };
 		6EAF45911F72118A00B1B4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF45901F72118A00B1B4E4 /* Assets.xcassets */; };
 		6EAF45941F72118A00B1B4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF45921F72118A00B1B4E4 /* LaunchScreen.storyboard */; };
-		6EAF45A01F72138A00B1B4E4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF459F1F72138A00B1B4E4 /* MainViewController.swift */; };
 		6EAF45A21F7213D600B1B4E4 /* BLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF45A11F7213D600B1B4E4 /* BLTabBarController.swift */; };
+		6EDF83F61F9F0D5A00965CD8 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF83F51F9F0D5A00965CD8 /* UIView+Frame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E0176C51F9DC02300807578 /* AlertViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewManager.swift; sourceTree = "<group>"; };
+		6E0176C71F9DC02300807578 /* BLAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLAlertViewController.swift; sourceTree = "<group>"; };
+		6E0176CB1F9DC10B00807578 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6E0176CD1F9DC1C100807578 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6E0176CF1F9DC25900807578 /* AddRecordAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordAlertView.swift; sourceTree = "<group>"; };
 		6E32E5091F8CA964003114B1 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
-		6E32E50B1F8CAA8A003114B1 /* AccountCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
 		6EAF45861F72118A00B1B4E4 /* SogaAccount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SogaAccount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAF45891F72118A00B1B4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EAF45901F72118A00B1B4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EAF45931F72118A00B1B4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EAF45951F72118A00B1B4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EAF459F1F72138A00B1B4E4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6EAF45A11F7213D600B1B4E4 /* BLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLTabBarController.swift; sourceTree = "<group>"; };
+		6EDF83F51F9F0D5A00965CD8 /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		81A65987851565C9917C7B53 /* Pods-SogaAccount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SogaAccount.release.xcconfig"; path = "Pods/Target Support Files/Pods-SogaAccount/Pods-SogaAccount.release.xcconfig"; sourceTree = "<group>"; };
 		C66C8CEE0B41502099B3E728 /* Pods_SogaAccount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SogaAccount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FF0F2B6F840294192ADDDA /* Pods-SogaAccount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SogaAccount.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SogaAccount/Pods-SogaAccount.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,12 +61,47 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6E32E5081F8CA8F4003114B1 /* Mine */ = {
+		6E0176C31F9DC02300807578 /* CommonViews */ = {
 			isa = PBXGroup;
 			children = (
+				6E0176C41F9DC02300807578 /* BLAlertView */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		6E0176C41F9DC02300807578 /* BLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				6E0176C61F9DC02300807578 /* BaseViewController */,
+				6E0176C51F9DC02300807578 /* AlertViewManager.swift */,
+				6E0176CF1F9DC25900807578 /* AddRecordAlertView.swift */,
+			);
+			path = BLAlertView;
+			sourceTree = "<group>";
+		};
+		6E0176C61F9DC02300807578 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6E0176C71F9DC02300807578 /* BLAlertViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		6E0176C81F9DC04900807578 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E0176CD1F9DC1C100807578 /* MainViewController.swift */,
 				6E32E5091F8CA964003114B1 /* MineViewController.swift */,
 			);
-			path = Mine;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6E0176CA1F9DC05100807578 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E0176CB1F9DC10B00807578 /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		6EAF457D1F72118A00B1B4E4 = {
@@ -82,21 +125,15 @@
 		6EAF45881F72118A00B1B4E4 /* SogaAccount */ = {
 			isa = PBXGroup;
 			children = (
+				6EDF83F41F9F0D2000965CD8 /* Extensions */,
+				6E0176CA1F9DC05100807578 /* Views */,
+				6E0176C81F9DC04900807578 /* Controllers */,
+				6E0176C31F9DC02300807578 /* CommonViews */,
 				6EAF45951F72118A00B1B4E4 /* Info.plist */,
 				6EAF459D1F72133E00B1B4E4 /* Resource */,
 				6EAF459C1F72131F00B1B4E4 /* AppDelegate */,
-				6EAF459B1F7212F300B1B4E4 /* Sections */,
 			);
 			path = SogaAccount;
-			sourceTree = "<group>";
-		};
-		6EAF459B1F7212F300B1B4E4 /* Sections */ = {
-			isa = PBXGroup;
-			children = (
-				6E32E5081F8CA8F4003114B1 /* Mine */,
-				6EAF459E1F72137000B1B4E4 /* Main */,
-			);
-			path = Sections;
 			sourceTree = "<group>";
 		};
 		6EAF459C1F72131F00B1B4E4 /* AppDelegate */ = {
@@ -117,13 +154,12 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		6EAF459E1F72137000B1B4E4 /* Main */ = {
+		6EDF83F41F9F0D2000965CD8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				6E32E50B1F8CAA8A003114B1 /* AccountCell.swift */,
-				6EAF459F1F72138A00B1B4E4 /* MainViewController.swift */,
+				6EDF83F51F9F0D5A00965CD8 /* UIView+Frame.swift */,
 			);
-			path = Main;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		BFCB371D23087F8D8FF43C94 /* Frameworks */ = {
@@ -262,10 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E45E14A1F9E1377001E4303 /* BLAlertViewController.swift in Sources */,
+				6E0176D11F9DC58300807578 /* AlertViewManager.swift in Sources */,
 				6EAF458A1F72118A00B1B4E4 /* AppDelegate.swift in Sources */,
-				6E32E50C1F8CAA8A003114B1 /* AccountCell.swift in Sources */,
+				6E0176D01F9DC25900807578 /* AddRecordAlertView.swift in Sources */,
 				6EAF45A21F7213D600B1B4E4 /* BLTabBarController.swift in Sources */,
-				6EAF45A01F72138A00B1B4E4 /* MainViewController.swift in Sources */,
+				6EDF83F61F9F0D5A00965CD8 /* UIView+Frame.swift in Sources */,
+				6E0176CE1F9DC1C100807578 /* MainViewController.swift in Sources */,
+				6E0176CC1F9DC10B00807578 /* MainView.swift in Sources */,
 				6E32E50A1F8CA964003114B1 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
