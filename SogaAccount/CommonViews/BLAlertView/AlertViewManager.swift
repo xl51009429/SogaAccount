@@ -39,11 +39,13 @@ class AlertViewManager: NSObject {
 		case .addRecord:
 			let alertView = AddRecordAlertView.init(frame: CGRect(origin: CGPoint.zero, size: contentSize))
 			alertController = BLAlertViewController(contentView: alertView)
+			alertView.sureClosure = {
+				[weak alertController]() in
+				alertController?.dismiss(animated: true, completion: nil)
+			}
 		}
 		alertController?.view.backgroundColor = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.5);
-		alertController?.providesPresentationContextTransitionStyle = true
-		alertController?.definesPresentationContext = true
-		alertController?.modalPresentationStyle = UIModalPresentationStyle.currentContext
+		alertController?.modalPresentationStyle = UIModalPresentationStyle.overCurrentContext
 		UIApplication.shared.keyWindow?.rootViewController?.present(alertController!, animated: true, completion: nil)
 	}
 }

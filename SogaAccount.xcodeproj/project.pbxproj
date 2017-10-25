@@ -18,6 +18,7 @@
 		6EAF45911F72118A00B1B4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF45901F72118A00B1B4E4 /* Assets.xcassets */; };
 		6EAF45941F72118A00B1B4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF45921F72118A00B1B4E4 /* LaunchScreen.storyboard */; };
 		6EAF45A21F7213D600B1B4E4 /* BLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF45A11F7213D600B1B4E4 /* BLTabBarController.swift */; };
+		6ED315431FA074DC00C4DEEB /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED315421FA074DC00C4DEEB /* UIFont+Extension.swift */; };
 		6EDF83F61F9F0D5A00965CD8 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDF83F51F9F0D5A00965CD8 /* UIView+Frame.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		6EAF45931F72118A00B1B4E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EAF45951F72118A00B1B4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6EAF45A11F7213D600B1B4E4 /* BLTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLTabBarController.swift; sourceTree = "<group>"; };
+		6ED315421FA074DC00C4DEEB /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		6EDF83F51F9F0D5A00965CD8 /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		81A65987851565C9917C7B53 /* Pods-SogaAccount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SogaAccount.release.xcconfig"; path = "Pods/Target Support Files/Pods-SogaAccount/Pods-SogaAccount.release.xcconfig"; sourceTree = "<group>"; };
 		C66C8CEE0B41502099B3E728 /* Pods_SogaAccount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SogaAccount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				6EDF83F51F9F0D5A00965CD8 /* UIView+Frame.swift */,
+				6ED315421FA074DC00C4DEEB /* UIFont+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				6EDF83F61F9F0D5A00965CD8 /* UIView+Frame.swift in Sources */,
 				6E0176CE1F9DC1C100807578 /* MainViewController.swift in Sources */,
 				6E0176CC1F9DC10B00807578 /* MainView.swift in Sources */,
+				6ED315431FA074DC00C4DEEB /* UIFont+Extension.swift in Sources */,
 				6E32E50A1F8CA964003114B1 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
